@@ -1,0 +1,162 @@
+body {
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.65;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 28px 60px;
+}
+
+nav {
+  text-align: right;
+  padding: 26px 0;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 15px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  padding: 56px 0 72px;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.chinese-name {
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-top: 10px;
+}
+
+header h2 {
+  font-size: 23px;
+  font-weight: normal;
+  margin: 8px 0;
+}
+
+.header-cn {
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #bbb;
+  margin: 24px 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  color: #245a9c;
+  text-decoration: none;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 62px;
+}
+
+section h2 {
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.bio {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.bio img {
+  width: 235px;
+  height: auto;
+  object-fit: cover;
+}
+
+.cn {
+  color: #333;
+}
+
+a {
+  color: #245a9c;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+.pub-list {
+  padding-left: 24px;
+}
+
+.pub-list li {
+  margin-bottom: 18px;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  body {
+    padding: 0 20px 50px;
+  }
+
+  nav {
+    text-align: center;
+    line-height: 1.9;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 4px 9px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .chinese-name {
+    font-size: 26px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  .bio {
+    flex-direction: column;
+  }
+
+  .bio img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
