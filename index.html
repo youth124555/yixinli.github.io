@@ -8,159 +8,53 @@
 </head>
 
 <body>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#cv">CV</a>
-    <a href="#contact">Contact</a>
+  <nav class="site-nav">
+    <div class="nav-links">
+      <a href="index.html" data-en="Home" data-cn="首页">Home</a>
+      <a href="research.html" data-en="Research" data-cn="研究">Research</a>
+      <a href="publications.html" data-en="Publications" data-cn="发表论文">Publications</a>
+      <a href="cv.html" data-en="CV" data-cn="简历">CV</a>
+      <a href="contact.html" data-en="Contact" data-cn="联系">Contact</a>
+    </div>
+
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="en">EN</button>
+      /
+      <button class="lang-btn" data-lang="cn">CN</button>
+    </div>
   </nav>
 
-  <header>
+  <header class="home-header">
     <h1>YIXIN LI</h1>
     <h1 class="chinese-name">李翊馨</h1>
-    <hr />
-    <h2>Ph.D. Student in International Relations</h2>
-    <h2>Renmin University of China</h2>
-    <p class="header-cn">中国人民大学国际关系专业博士生</p>
-    <hr />
-    <a class="button" href="#research">Learn More About My Research</a>
+
+    <div class="home-photo">
+      <img src="assets/img/prof_pic.jpg" alt="Yixin Li" />
+    </div>
+
+    <p class="identity"
+       data-en="Ph.D. Student in International Relations"
+       data-cn="国际关系专业博士生">
+       Ph.D. Student in International Relations
+    </p>
+
+    <p class="institution"
+       data-en="Renmin University of China"
+       data-cn="中国人民大学">
+       Renmin University of China
+    </p>
+
+    <div class="home-links">
+      <a href="research.html" data-en="Research" data-cn="研究方向">Research</a>
+      <a href="publications.html" data-en="Publications" data-cn="发表论文">Publications</a>
+      <a href="CV_Yixin(Olivia)Li_V6.pdf" target="_blank" data-en="Download CV" data-cn="下载简历">Download CV</a>
+    </div>
   </header>
-
-  <main>
-    <section id="about">
-      <h2>ABOUT / 关于我</h2>
-      <hr />
-
-      <div class="bio">
-        <img src="assets/img/prof_pic.jpg" alt="Yixin Li" />
-
-        <div>
-          <p>
-            I am a Ph.D. student in International Relations at Renmin University of China.
-            My research interests include Indo-Pacific security, alliance theory,
-            Political Psychology and great-power strategic behavior.
-          </p>
-
-          <p>
-            My current research examines how states adjust their strategic preferences and external behavior
-            under changing power structures, regional security pressures, and perceptions of long-term strategic trends.
-            I am particularly interested in U.S. alliance and partner networks in the Indo-Pacific, South China Sea
-            security dynamics, and the interaction between great-power competition and regional order.
-          </p>
-
-          <p class="cn">
-            我目前是一名中国人民大学国际关系专业的博士生。我的研究兴趣包括印太安全、联盟理论、政治心理学以及大国战略行为。
-          </p>
-
-          <p class="cn">
-            我目前关注国家在权力结构变化、地区安全压力和长期战略趋势认知影响下如何调整战略偏好与对外行为，尤其关注美国在印太地区的盟伴网络、南海安全动态，以及大国竞争与地区秩序之间的互动关系。
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="education">
-      <h2>EDUCATION / 教育背景</h2>
-      <hr />
-
-      <p>
-        <strong>09/2026-Present Ph.D. in International Relations</strong><br />
-        Renmin University of China<br />
-        2026年9月至今 中国人民大学，国际关系专业博士生
-      </p>
-
-      <p>
-        <strong>09/2023-06/2026 M.A. in Diplomacy</strong><br />
-        Shanghai Institutes for International Studies<br />
-        2023年9月-2026年6月 上海国际问题研究院，外交学硕士
-      </p>
-
-      <p>
-        <strong>09/2019-06/2023 B.A. in Political Science and Public Administration</strong><br />
-        Ocean University of China<br />
-        2019年9月-2023年6月 中国海洋大学，政治学与行政学本科
-      </p>
-    </section>
-
-    <section id="research">
-      <h2>RESEARCH / 研究方向</h2>
-      <hr />
-
-      <ul>
-        <li>National strategy and strategic behavior / 国家战略与战略行为</li>
-        <li>Indo-Pacific security architecture / 印太安全架构</li>
-        <li>Alliance politics and minilateral cooperation / 联盟政治与小多边合作</li>
-        <li>U.S. alliance and partner networks / 美国盟伴体系</li>
-        <li>Taiwan-related issues and divergence management / 台湾问题与分歧管控</li>
-        <li>South China Sea disputes and maritime security / 南海争端与海洋安全</li>
-        <li>Great-power competition and regional order / 大国竞争与地区秩序</li>
-        <li>Political Psychology / 政治心理学</li>
-      </ul>
-    </section>
-
-    <section id="publications">
-      <h2>PUBLICATIONS / 发表论文</h2>
-      <hr />
-
-      <ol class="pub-list">
-        <li>
-          Li, K., &amp; Li, Y. (2025).
-          Compete in Shaping Favorable Strategic Posture: How to Respond to the American Minilateral Deployments against China.
-          <em>Pacific Journal</em>, 33(2), 26–37.
-          <a href="https://doi.org/10.14015/j.cnki.1004-8049.2025.02.003" target="_blank">https://doi.org/10.14015/j.cnki.1004-8049.2025.02.003</a>
-        </li>
-
-        <li>
-          Zhang, J., &amp; Li, Y. (2025).
-          Allies' and Partners' Positions on Taiwan and Divergence Management in the Biden Administration's Latticework Approach.
-          <em>Taiwan Research Journal</em>, 2025(04), 1–18.
-          DOI: 10.14157/j.cnki.twrq.2025.04.005.
-        </li>
-
-        <li>
-          Hong, Y., &amp; Li, Y. (2025).
-          “Minilateralism” or “Quasi-Alliance”: A Study on the Repositioning of the US-Japan-Philippines Trilateral Cooperation Mechanism.
-          <em>Japanese Research</em>, 39(05), 1–17.
-          DOI: 10.14156/j.cnki.rbwtyj.2025.05.001.
-        </li>
-
-        <li>
-          Li, Y.
-          Why Do Great Powers Not Always Strike First? The Nonlinear Evolution of Great-Power Strategic Preferences under Trend Anxiety.
-          <em>Frontiers in Political Science</em>. Accepted but withdrawn.
-        </li>
-      </ol>
-    </section>
-
-    <section id="cv">
-      <h2>CV / 简历</h2>
-      <hr />
-
-      <p>
-        My curriculum vitae is available here:
-        <a href="CV_Yixin(Olivia)Li_V6.pdf" target="_blank">Download CV</a>
-      </p>
-
-      <p class="cn">
-        我的英文简历可在此下载：
-        <a href="CV_Yixin(Olivia)Li_V6.pdf" target="_blank">下载简历</a>
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>CONTACT / 联系方式</h2>
-      <hr />
-
-      <p>Email: <a href="mailto:youth.124555@gmail.com">youth.124555@gmail.com</a></p>
-      <p>Google Scholar: Coming soon</p>
-      <p>ORCID: Coming soon</p>
-    </section>
-  </main>
 
   <footer>
     <p>© 2026 Yixin Li</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
