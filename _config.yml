@@ -6,8 +6,7 @@ title: Yixin (Olivia) Li
 first_name: Yixin
 last_name: Li
 email: youth.124555@gmail.com
-description:
-  Personal academic website of Yixin Li
+description: Personal academic website of Yixin Li
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -17,7 +16,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://youth124555.github.io
-baseurl: 
+baseurl:  /yixinli.github.io
 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
