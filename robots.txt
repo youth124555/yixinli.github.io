@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://youth124555.github.io/sitemap.xml
+Sitemap: https://youth124555.github.io/yixinli.github.io/sitemap.xml
